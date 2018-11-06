@@ -1,6 +1,4 @@
 #coding=utf-8
-#author:微信公众号：大数据前沿
-#查看代码讲解，视频教程，请微信添加好友搜索公众号[大数据前沿]查看历史消息获取。
 
 import itchat
 import json
@@ -67,6 +65,6 @@ if __name__ == '__main__':
     download_images(friends_list)
 
     
-    user = itchat.search_friends(name=u'二胖')[0]
+    user = itchat.search_friends(name=u'朱长旺')[0]
     user.send(u'hello,这是一条来自机器人的消息')
     itchat.run()
